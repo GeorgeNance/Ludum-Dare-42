@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 705f7ca6a7e461847bebe08b5855da73
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube
+    100002: DoorLeft
+    100004: DoorRight
+    100006: Doors
+    100008: Elevator
+    100010: Hallway
+    100012: //RootNode
+    100014: HallwayCeiling
+    100016: HallwayLights
+    100018: Keypad
+    100020: Keypad.001
+    100022: Vents
+    100024: Walls
+    400000: Cube
+    400002: DoorLeft
+    400004: DoorRight
+    400006: Doors
+    400008: Elevator
+    400010: Hallway
+    400012: //RootNode
+    400014: HallwayCeiling
+    400016: HallwayLights
+    400018: Keypad
+    400020: Keypad.001
+    400022: Vents
+    400024: Walls
+    2100000: No Name
+    2100002: Door
+    2100004: Keypad
+    2100006: Material
+    2100008: Screen
+    2100010: Hallwall
+    2100012: HallFloor
+    2100014: Frame
+    2100016: Doorwalls
+    2100018: Door.001
+    2100020: Frames
+    2300000: Cube
+    2300002: DoorLeft
+    2300004: DoorRight
+    2300006: Elevator
+    2300008: Hallway
+    2300010: HallwayCeiling
+    2300012: HallwayLights
+    2300014: Keypad
+    2300016: Keypad.001
+    2300018: Vents
+    2300020: Walls
+    3300000: Cube
+    3300002: DoorLeft
+    3300004: DoorRight
+    3300006: Elevator
+    3300008: Hallway
+    3300010: HallwayCeiling
+    3300012: HallwayLights
+    3300014: Keypad
+    3300016: Keypad.001
+    3300018: Vents
+    3300020: Walls
+    4300000: Cube
+    4300002: DoorRight
+    4300004: DoorLeft
+    4300006: Keypad.001
+    4300008: Keypad
+    4300010: HallwayCeiling
+    4300012: HallwayLights
+    4300014: Vents
+    4300016: Elevator
+    4300018: Hallway
+    4300020: Walls
+    6400000: Cube
+    6400002: DoorLeft
+    6400004: DoorRight
+    6400006: Elevator
+    6400008: Hallway
+    6400010: HallwayCeiling
+    6400012: HallwayLights
+    6400014: Keypad
+    6400016: Keypad.001
+    6400018: Vents
+    6400020: Walls
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
