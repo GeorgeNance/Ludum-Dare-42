@@ -14,6 +14,9 @@ public class EnginePowerButton : MonoBehaviour,Interactable {
     public Material coilMaterial;
 
 
+    public GameObject cargoLightsPrefab;
+
+
     public bool pushedButton = false;
 
     public string HoverText()
@@ -45,7 +48,7 @@ public class EnginePowerButton : MonoBehaviour,Interactable {
             pushedButton = true;
             ladderTeleport.enabled = true;
             Light.enabled = true;
-
+            cargoLightsPrefab.SetActive(true);
 
             float emission = Mathf.PingPong(Time.time, 1.0f);
             Color baseColor = Color.cyan; //Replace this with whatever you want for your base color at emission level '1'
@@ -60,7 +63,15 @@ public class EnginePowerButton : MonoBehaviour,Interactable {
 
     // Use this for initialization
 	void Start () {
-		
+        cargoLightsPrefab.SetActive(false);
+        Light.enabled = false;
+        ladderTeleport.enabled = false;
+        float emission = Mathf.PingPong(Time.time, 1.0f);
+        Color baseColor = Color.grey; //Replace this with whatever you want for your base color at emission level '1'
+
+        Color finalColor = baseColor * Mathf.LinearToGammaSpace(emission);
+
+        coilMaterial.SetColor("_EmissionColor", finalColor);
 	}
 	
 	// Update is called once per frame
