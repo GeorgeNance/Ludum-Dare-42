@@ -28,6 +28,11 @@ public class OxygenMeterUI : MonoBehaviour {
 
 
         text.text = string.Format("Room Oxygen:\n<b>{0}%</b>", Mathf.Round(percent* 100));
+        if (percent <= 0.25f){
+            text.color = Color.red;
+        }else{
+            text.color = Color.white;
+        }
     }
 
 
