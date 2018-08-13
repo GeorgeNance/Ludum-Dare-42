@@ -24,4 +24,9 @@ public class GameManager : MonoBehaviour {
     public void Quit(){
         Application.Quit();
     }
+
+
+    public void StartGame(){
+        Cursor.lockState = CursorLockMode.Locked;
+    }
 }
