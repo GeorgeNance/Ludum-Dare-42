@@ -13,7 +13,7 @@ public class FuseBox : MonoBehaviour,Interactable {
 
     public string HoverText()
     {
-        if (!fuse1.active && !fuse2.active)
+        if (!fuse1.active || !fuse2.active)
         {
             if (Inventory.Instance.Check("fuse1"))
             {
@@ -36,7 +36,7 @@ public class FuseBox : MonoBehaviour,Interactable {
 
     public void Interact(GameObject player)
     {
-        if (!fuse1.active && !fuse2.active)
+        if (!fuse1.active || !fuse2.active)
         {
             if (Inventory.Instance.Check("fuse1"))
             {
@@ -56,8 +56,8 @@ public class FuseBox : MonoBehaviour,Interactable {
 
             }
         }
-        else
-        {
+
+        if (fuse1.active && fuse2.active){
             button.powered = true;
         }
 
