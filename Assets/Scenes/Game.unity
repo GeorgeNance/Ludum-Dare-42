@@ -1628,7 +1628,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 1
-  m_Range: 5
+  m_Range: 8
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -8451,6 +8451,11 @@ Prefab:
     - target: {fileID: 1729656809047478, guid: d90cd3ca553144aad819ba13dba52264, type: 2}
       propertyPath: m_Name
       value: Flash Light (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108462986336123724, guid: d90cd3ca553144aad819ba13dba52264,
+        type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d90cd3ca553144aad819ba13dba52264, type: 2}
