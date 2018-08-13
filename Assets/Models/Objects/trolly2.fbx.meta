@@ -37,6 +37,11 @@ ModelImporter:
     4300004: Torus.001
     4300006: Torus
     4300008: Trolly
+    6400000: Console
+    6400002: Crate
+    6400004: Torus
+    6400006: Torus.001
+    6400008: Trolly
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -70,7 +75,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
