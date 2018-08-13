@@ -7,10 +7,14 @@ public class OxygenManager : MonoBehaviour {
     private float timer = 0;
 
     public static OxygenManager Instance;
-    private int maxTime = 90; 
+    private int maxTime = 90;
+
+    public GameObject GameOverScreen;
+
 
 	// Use this for initialization
 	void Start () {
+        GameOverScreen.SetActive(false);
         Instance = this;
         timer = maxTime;
 	}
@@ -18,6 +22,11 @@ public class OxygenManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         timer -= Time.deltaTime;
+
+
+        if (timer <= 0){
+            GameOver();
+        }
 	}
 
 
@@ -29,4 +38,15 @@ public class OxygenManager : MonoBehaviour {
         maxTime = amount;
         timer = amount;
     }
+
+
+    void GameOver(){
+        GameOverScreen.SetActive(true);
+        GameObject player = GameObject.FindWithTag("Player");
+        player.GetComponent<CamerController>().enabled = false;
+        player.GetComponent<PlayerMovement>().enabled = false;
+        Cursor.lockState = CursorLockMode.None;
+
+    }
+
 }
