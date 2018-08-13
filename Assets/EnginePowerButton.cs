@@ -46,7 +46,7 @@ public class EnginePowerButton : MonoBehaviour,Interactable {
         else
         {
             pushedButton = true;
-            ladderTeleport.enabled = true;
+            ladderTeleport.gameObject.SetActive(true);
             Light.enabled = true;
 //            cargoLightsPrefab.SetActive(true);
 
@@ -65,7 +65,7 @@ public class EnginePowerButton : MonoBehaviour,Interactable {
 	void Start () {
 //        cargoLightsPrefab.SetActive(false);
         Light.enabled = false;
-        ladderTeleport.enabled = false;
+        ladderTeleport.gameObject.SetActive(false);
         float emission = Mathf.PingPong(Time.time, 1.0f);
         Color baseColor = Color.grey; //Replace this with whatever you want for your base color at emission level '1'
 
